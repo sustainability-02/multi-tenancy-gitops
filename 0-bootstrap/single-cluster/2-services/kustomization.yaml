@@ -1,7 +1,9 @@
 resources:
 # IBM Software
 - argocd/instances/sealed-secrets.yaml
-
+- argocd/instances/ibm-sfg-db2-prod.yaml
+- argocd/instances/ibm-sfg-mq-prod.yaml
+- argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
 patches:
 - target:
     group: argoproj.io
