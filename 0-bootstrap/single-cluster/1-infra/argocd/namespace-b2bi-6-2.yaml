@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: namespace-b2bi-6.2
+  name: namespace-b2bi-6-2
   labels:
     gitops.tier.layer: infra
   annotations:
@@ -12,7 +12,7 @@ spec:
     server: https://kubernetes.default.svc
   project: infra
   source:
-    path: namespaces/b2bi-6.2
+    path: namespaces/b2bi-6-2
   syncPolicy:
     automated:
       prune: true

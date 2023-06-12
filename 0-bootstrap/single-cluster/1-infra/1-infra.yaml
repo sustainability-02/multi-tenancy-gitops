@@ -74,7 +74,7 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: cp4ba
     server: https://kubernetes.default.svc
-  - namespace: b2bi-6.2
+  - namespace: b2bi-6-2
     server: https://kubernetes.default.svc
   clusterResourceWhitelist:
   - group: ""
