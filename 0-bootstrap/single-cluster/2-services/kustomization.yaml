@@ -7,6 +7,7 @@ resources:
 - argocd/instances/ibm-sfg-b2bi-prod.yaml
 - argocd/instances/ibm-lw-db2.yaml
 - argocd/instances/lightwell-framework.yaml
+- argocd/instances/ibm-itxa-setup.yaml
 patches:
 - target:
     group: argoproj.io
